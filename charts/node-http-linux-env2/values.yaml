@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: draft
-  tag: dev
+  repository: 10.55.243.98:5000/seiu775bg/node-http-linux-env2
+  tag: 0.0.1
   pullPolicy: IfNotPresent
 service:
   name: node-http-linux-env2
